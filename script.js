@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     const linkElement = document.createElement("a");
                     linkElement.textContent = "Learn more";
                     linkElement.href = link;
-                    linkElement.target = "_blank"; // Open link in a new tab
+                    linkElement.target = ""; // Open link in a new tab
                     eventContainer.appendChild(linkElement);
 
                     // Append the event container to the main container
